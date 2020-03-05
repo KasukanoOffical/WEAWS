@@ -1,0 +1,123 @@
+name: WEAWS
+main: net.yyh.WEAWS.Main
+version: 1.0
+description: WorldEdit Addition of Watersuno.
+author: yyh
+commands:
+   WEAWS:
+      description: test.
+      usage: /WEAWS
+      permission: WEAWS.manager
+      permission-message: Sorry! You don't have permission to execute that command.
+   g:
+      description: test.
+      usage: /g <m0|m1|m2|m3>
+      permission: essentials.gamemode.*
+   /gm:
+      description: test.
+      usage: //gm <0|1|2|3>
+      permission: essentials.gamemode.*
+   gm0:
+      description: test.
+      usage: /gm0
+      aliases: /gm0
+      permission: essentials.gamemode.*
+   gm1:
+      description: test.
+      usage: /gm1
+      aliases: /gm1
+      permission: essentials.gamemode.*
+   gm2:
+      description: test.
+      usage: /gm2
+      aliases: /gm2
+      permission: essentials.gamemode.*
+   gm3:
+      description: test.
+      usage: /gm3
+      aliases: /gm3
+      permission: essentials.gamemode.*
+   /st:
+      description: test.
+      usage: //st
+      aliases: [st, s/t]
+   /mo:
+      description: test.
+      usage: //mo
+      aliases: [mo, m/o]
+   /sh:
+      description: test.
+      usage: //sh
+      aliases: [sh, s/h]
+   /exp:
+      description: test.
+      usage: //exp
+      aliases: [e/xp, ex/p, epx, /epx, ep, /ep]
+   /con:
+      description: test.
+      usage: //con
+      aliases: [con, c/on, co/n]
+   /far:
+      description: test.
+      usage: //far
+      aliases: [f, /f, far, f/ar, fa/r, fra, /fra, arf, /arf, afr, /afr, fr]
+   cuboid:
+      description: test.
+      usage: /cuboid
+      aliases: /cuboid
+   extend:
+      description: test.
+      usage: /extend
+      aliases: /extend
+   poly:
+      description: test.
+      usage: /poly
+      aliases: /poly
+   ellipsoid:
+      description: test.
+      usage: /ellipsoid
+      aliases: /ellipsoid
+   convex:
+      description: test.
+      usage: /convex
+      aliases: /convex
+   polyherdral:
+      description: test.
+      usage: /polyherdral
+      aliases: /polyherdral
+   cu:
+      description: test.
+      usage: /cu
+      aliases: [/cu, c/u, cub, /cub, cubo, /cubo, cuboi, /cuboi]
+   /gamsk:
+      description: test.
+      usage: //gamsk
+      aliases: [gamsk, g/amsk, ga/msk, gam/sk, gams/k, g/mask, gm/ask, gma/sk, gmas/k] 
+   /un:
+      description: test.
+      usage: /un
+      aliases: [un, und, /und, u/ndo, un/do, und/o, undp, /undp, u/ndp, un/dp, und/p]
+   /red:
+      description: test.
+      usage: //red
+      aliases: [red, r/edo, re/do, red/o]
+   makeland:
+      description: test.
+      usage: /makeland
+      aliases: /makeland
+   cuttree:
+      description: test.
+      usage: /cuttree
+      aliases: /cuttree
+   nearcuttree:
+      description: test.
+      usage: /nearcuttree [radius]
+      aliases: /nearcuttree 
+   chunkregen:
+      description: test.
+      usage: /chunkregen
+      aliases: [/chunkregen, chunkerror, /chunkerror, ce, /ce]
+permissions:
+   WEAWS.manager:
+      description: Permissions for WEAWS management.
+      default: false
